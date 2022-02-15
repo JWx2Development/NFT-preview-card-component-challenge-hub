@@ -75,3 +75,17 @@ hr {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 1440px) {
+  .card {
+    display: block;
+    width: 325px;
+    margin-left: 550px;
+  }
+  hr {
+    width: 300px;
+  }
+  .attribution {
+    margin-left: 550px;
+  }
+}
